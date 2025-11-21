@@ -4,7 +4,8 @@
   "description": "Projeto para acompanhar as aulas do curso disponivel em curso.dev",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev"
   },
   "repository": {
     "type": "git",
@@ -20,5 +21,10 @@
     "next": "^16.0.3",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.6",
+    "typescript": "5.9.3"
   }
 }
